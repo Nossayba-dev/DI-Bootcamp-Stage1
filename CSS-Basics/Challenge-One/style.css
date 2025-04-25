@@ -1,0 +1,12 @@
+body{
+    background-color:#00ccff ;
+}
+ul{
+    list-style-type:none;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+li::first-letter{
+    font-size: 25px;
+}

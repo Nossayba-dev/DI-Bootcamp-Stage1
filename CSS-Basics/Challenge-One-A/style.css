@@ -1,0 +1,33 @@
+body{
+    background-color: #e2ac7f;
+}
+div {
+    border-style: dashed;
+    background-color :#f9f3df;
+    border-width: 3px;
+    margin-left:250px ;
+    margin-right:250px ;
+    text-align: center;
+}
+div>h1{
+    border-style: none none dashed none;
+    border-width: 3px;
+    margin: 0;
+    font-family: "Ultra", sans-serif;} /* i've used random fonts from google fonts */
+div>p:first-of-type{
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div>p{
+ 
+    font-family: "Patrick Hand", cursive;
+}
+div>ul{
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+
+div>ul>li::first-letter{
+    font-size: 20px;
+}
