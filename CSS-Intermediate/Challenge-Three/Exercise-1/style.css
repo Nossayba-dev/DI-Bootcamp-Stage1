@@ -1,0 +1,33 @@
+   body {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f4f4f4;
+    max-width: 900px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .red-box {
+    background-color: #d18080;
+    border: 2px solid #000;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .blue-box {
+    background-color: #7aaad1;
+    border: 2px solid #000;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .yellow-box {
+    background-color: #e8d087;
+    border: 2px solid #000;
+    height: 80px;
+    grid-column: span 2;
+    width: 100%;
+  }
+  
