@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+  }
+  .header {
+    height: 100px;
+    background-color: #9575cd;
+    margin-bottom: 30px;
+  }
+  .three-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .three-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .img{
+    background-image: url(tree.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .box {
+    border: 2px solid #000;
+    flex: 1;
+    height: 200px;
+  }
+  .red    { background-color: #ef5350; }
+  .green  { background-color: #81c784; }
+  .orange { background-color: #ffa726; }
+  
